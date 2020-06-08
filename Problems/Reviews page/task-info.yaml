@@ -1,0 +1,18 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    from django.shortcuts import render
+    from django.views import View
+
+
+    class ReviewView(View):
+        reviews = []  # List of reviews as plain strings
+
+        def get(self, request, *args, **kwargs):
+            ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8759
+status: Solved
+record: -1
